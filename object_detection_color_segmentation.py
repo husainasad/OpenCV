@@ -41,8 +41,8 @@ while True:
     cv2.imshow("cam",img)
     cv2.waitKey(10)
     
-    if cv2.waitKey(10) & 0xFF==ord('q'):
-        break
-
-cam.release()
-cv2.destroyAllWindows()
+#    if cv2.waitKey(10) & 0xFF==ord('q'):
+#        break
+#
+#cam.release()
+#cv2.destroyAllWindows()
